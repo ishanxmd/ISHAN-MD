@@ -19,7 +19,7 @@ const {
   const { File } = require('megajs')
   const prefix = '.'
   
-  const ownerNumber = ['923237045919']
+  const ownerNumber = ['94785457011']
   
   //===================SESSION-AUTH============================
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -67,22 +67,22 @@ const {
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('your name connected to whatsapp ✅')
+  console.log('ISHAN-MD connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      your name           
+  ║      ISHAN-MD           
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊         
-  ║ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306              
+  ║ https://whatsapp.com/channel/0029VbBgUm07IUYOmLOoRc1m              
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
-  ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
+  ║ https://wa.me/qr/T4L42WFFYJKSG1                 
   ╠═════════════════╣
   ║      your name               
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ your name       
+  ║ > ©𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝚋𝚢 𝙸𝚂𝙷𝙰𝙽-𝚇       
   ╚═════════════════╝
 `;
   conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
